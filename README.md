@@ -37,17 +37,17 @@ You need to have the Rust programming language and its package manager, Cargo, i
 
     *   **With default settings** (Port: `8123`, Threads: `4`):
         ```sh
-        ./target/release/cmd
+        ./target/release/file_server
         ```
 
     *   **With a custom port** (e.g., port `8080`):
         ```sh
-        ./target/release/cmd 8080
+        ./target/release/file_server 8080
         ```
 
     *   **With a custom port and thread count** (e.g., port `8080`, `8` threads):
         ```sh
-        ./target/release/cmd 8080 8
+        ./target/release/file_server 8080 8
         ```
 
     Once running, open your web browser and navigate to `http://127.0.0.1:8123` (or your custom port).
